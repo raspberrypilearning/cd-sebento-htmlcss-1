@@ -11,10 +11,30 @@ Build a website like the one in the trinket below.
   </iframe>
 </div>
 
-### What you will learn
+--- collapse ---
+---
+title: What you will learn
+---
 
 - Using an online editor to create a website made up of HTML files and a CSS file
 - Building a HTML website that has headings, paragraph text, lists, and images
 - Using CSS code to control the look of your website, including designing a simple menu bar and changing colours, backgrounds, and borders
 - Linking pages to each other, and linking to other websites
 - Creating a table that includes headings and multiple rows
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: What you will need
+---
+
+### Hardware
+
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
+
+### Software
+
++ This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+
+--- /collapse ---

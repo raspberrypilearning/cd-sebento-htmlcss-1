@@ -1,95 +1,55 @@
-## Creating links
+## Adding more pages
 
-On this card you'll learn how to make a link that takes you to another page when it's clicked.
+This card will show you how to add more pages to your website.
 
-- Add the following code to the body section of `index.html`:
+- At the top of the code panel, click on the **+** symbol next to the tabs, and type in a name for your new file. It must end in `.html` (including the dot!) so that the browser knows it's a webpage.
 
-```html
-  <a href="">Click here</a>
-```
-
-The `<a> </a>` tags turn whatever is in between them into a link. 
- 
-- Try clicking your link to see what happens. It does nothing, right?
-
-That's because the `href` attribute is empty at the moment. It needs to contain the **URL** (web address) of the page that you want to link to.
-
-- Go to Wikipedia and find a page about something on your website. I'm going to use the page about bird conservation.
-
-- Click in the address bar and select all of the text in i5. That's the complete URL of the page you're on. Press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>C</kdb> keys at the same time to copy it. 
-
-  ![URL in address bar](images/AddressBarURL.png)
-
-- In your trinket, click in between the quotation marks after `href=` and press the <kdb>Ctrl</kdb> (or <kdb>cmd</kdb>) and <kdb>V</kdb> keys at the same time to paste in the URL you just copied. Your code should look something like this now:
-
-```html
-  <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a>
-```
-
-You just created your first link! Click on it to see if it works now.
-
-![Link tag](images/egLinkTagWithURL.png)
+![Adding a new file in Trinket](images/tktNewFileArrows.png)
 
 --- collapse ---
 ---
-title: Links to other websites
+title: Renaming or deleting a file
 ---
-Trinket has trouble with some web addresses. You can try URLs of websites other than Wikipedia if you like, but they may not work in your trinket. However, if you were to download your project and view the files in a web browser, you would see the links working.
+
+If you want to change the name of a file, click on the **cog** icon to the right of the file name, and then click the **pencil** icon. Type in the new name and press **Enter**. You can also delete a file by clicking the **bin** icon instead of the **pencil** icon.
+![](images/EditFilename.png)
+
+You might be wondering why you can't change the name of the `index.html` file. `index.html` is a special name used for the **homepage** of a website. That's the first page you land on when you visit a website. Whenever you go to a website's homepage, the browser looks for the file called `index.html` and displays it on your screen.
 
 --- /collapse ---
 
-- Try putting a picture in between the `<a> </a>` tags instead of the words `Click here`, like this:
+- Find the file `template.html` and copy and paste all of the code from it into your new file. Since you want to copy the whole thing, you can click anywhere on the code and use the keyboard shortcut <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>A</kbd> to select all of it at once.
 
-```html
-  <a href="https://en.wikipedia.org/wiki/Bird_conservation">
-      <img src="barn-owl.jpg" alt="A barn owl" width="200px" />
-  </a>
-```
+- Change the text in between the `<title> </title>` tags so your new page has a suitable title. Trinket won't display the title, but you can see it at the top of your browser window if you download your project.
 
-- Click on your picture. Do you see that it was turned into a link?
+![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
 
-You can put a link into other elements of your webpage too, such as in a paragraph or even in a list. Here is an example of a sentence with a link in it:
+- In between the `<main> </main>` tags in the new file, use the tags you have learned about to add stuff to the page, such as paragraphs, headings, images, and lists!
 
-```html
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Bird_conservation">Click here</a> to read about bird conservation on Wikipedia.
-  </p>
-```
+- Repeat the steps above for each new page that you want to add. 
 
-![Example of a link in a paragraph element](images/egParagraphLink.png)
+When there are too many tabs for Trinket to show at once, you can use the **<** and **>** icons in the top left-hand corner of the tabs to scroll between them.
 
---- challenge ---
+![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
 
-## Challenge: put a link into a list
+Now you need to make links so that you can get to each of your new pages! Let's put all the links in a list.
 
-- See if you can make a list that contains a link inside one of the list items.
-
---- hints ---
-
---- hint ---
-
-To turn a list item `<li> </li>` into a link, put all of it, including the list tags, in between a pair of link tags `<a> </a>` and add the `href` attribute as you've done above.
-
---- /hint ---
-
---- hint ---
-
-In the following list, the 'Hen harrier' list item has been turned into a link.
+- In the `index.html` file, add the following code to the body of your webpage:
 
 ```html
     <ul>
-        <li>Barn owl</li>
-        <a href="https://en.wikipedia.org/wiki/Hen_harrier"><li>Hen harrier</li></a>
-        <li>Yellowhammer</li>
-        <li>Curlew</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="birds.html">Protected Birds</a></li>
+        <li><a href="conservation.html">Conservation</a></li>
+        <li><a href="sanctuaries.html">Bird Sanctuaries</a></li>
     </ul>
 ```
 
---- /hint ---
+- Change the value of the `href` attribute for each link (remember, that's the text inside the quotation marks) so that it exactly matches the name of each HTML file that you have created. 
 
---- /hints ---
+- Change the text in between the `<a> </a>` tags to suitable descriptions of your pages.
 
+Now you can navigate to your new pages! 
 
---- /challenge ---
-
+![Example list of links on a web page](images/egListOfPageLinks.png)
 
