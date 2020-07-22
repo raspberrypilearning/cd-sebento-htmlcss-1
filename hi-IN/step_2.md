@@ -1,6 +1,6 @@
 ## शुरू करने के लिए
 
-- [प्रारंभक trinket](http://dojo.soy/se-html1-start){:target="_blank"} को खोलें | आपको एक बॉक्स दिखाई देगा जिसमें एक उदाहरण वेबसाइट प्रोजैक्ट होगी। वहाँ दाईं ओर वेबसाइट है, और बाईं ओर वह कोड है जो वेबसाइट बनाता है। ![Web page and code in Trinket](images/tktHTMLStartingPoint.png)
+- [प्रारंभक trinket](http://dojo.soy/se-html1-start){:target="_blank"} को खोलें | आपको एक बॉक्स दिखाई देगा जिसमें एक उदाहरण वेबसाइट प्रोजैक्ट होगी। वहाँ दाईं ओर वेबसाइट है, और बाईं ओर वह कोड है जो वेबसाइट बनाता है। ![वेब पेज और ट्रिंकेट में कोड](images/tktHTMLStartingPoint.png)
 
 
 --- collapse ---
@@ -10,11 +10,11 @@ title: मेरे पास Trinket अकाउन्ट है
 
 - प्रोजैक्ट के ऊपर दाईं ओर **Remix** बटन पर क्लिक करें । यदि आपने साइन इन नहीं किया हुआ है, तो आपको ऐसा करने के लिए कहा जाएगा। साइन इन करने के बाद, आपको **Remix**  बटन पर क्लिक करना होगा। इस बटन पर क्लिक करने से प्रोजेक्ट की एक कॉपी बन जाती है जिस पर आप काम कर सकते हैं।
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Remix बटन](images/tktRemixButtonArrow.png)
 
 क्लिक करने के बाद प्रोजैक्ट पर **remixed** लिखा होना चाहिए:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![बटन अब "remixed"" कहता है](images/tktRemixedSmall.png)
 
 --- /collapse ---
 
@@ -31,7 +31,7 @@ title: मेरे पास Trinket खाता नहीं है
 
 - अपना ईमेल(email) दर्ज करें और एक पासवर्ड(password) चुनें, या यह करने में किसी की सहायता ले।
 
-- अब आप अपने उपयोगकर्ता नाम पर क्लिक करके और **My Trinkets** पर जाकर अपनी सभी सहेजी गई या रीमिक्स(remix) प्रोजैक्ट तक पहुँच सकते हैं । !["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+- अब आप अपने उपयोगकर्ता नाम पर क्लिक करके और **My Trinkets** पर जाकर अपनी सभी सहेजी गई या रीमिक्स(remix) प्रोजैक्ट तक पहुँच सकते हैं । !["My Trinkets" मेनू आइटम](images/MyTrinketsMenuWide.png)
 
 --- /collapse ---
 
