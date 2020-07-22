@@ -1,12 +1,12 @@
-## Your first webpage!
+## आपका पहला वेबपेज!
 
-- In the left-hand panel, the **code panel**, click on the tab that says `index.html`.
+- बायीं ओर के पैनल, जिसे **कोड पैनल(code panel)** कहा जाता है, उस में `index.html` टैब पर क्लिक करें।
 
-- Find the line that says `Hello!` and change it to your own message — be careful **not** to delete the tags`<p>` at the start of the line and `</p>` at the end of the line. You should see your webpage update in the right-hand panel.
+- उस पंक्ति को खोजें जहाँ `Hello!` जहाँ लिखा है और इसे अपने संदेश में बदल दें - सावधान रहें टैग **नहीं** हटाएँ `<p>` लाइन की शुरुआत में और `</p>` पंक्ति के अंत में। आपको अपना वेबपेज दाईं ओर के पैनल में अपडेट होता दिखना चाहिए।
 
 ![HTML paragraph example](images/egFirstHtmlCode.png)
 
-- Now on the same line, change the `<p>` and `</p>` to `<h1>` and `</h1>`. Do you notice any change in the result on the right?
+- अब उसी लाइन पर, `<p>` और `</p>` को `<h1>` और `</h1>` में बदलें । क्या आपको दाईं ओर के परिणाम में कोई परिवर्तन दिखाई दिया?
 
 ```html
   <h1>Hello!</h1>
@@ -14,27 +14,27 @@
 
 --- collapse ---
 ---
-title: HTML and tags explained
+title: HTML और टैग(tags) की व्याख्या
 ---
 
-**HTML** is the code that makes a webpage.
+**HTML** वह कोड है जो वेबपेज बनाता है।
 
-The `.html` in the file name tells the browser that the file is a webpage, so the browser knows to look for **tags** telling it what to display. (A browser is the program you use to look at websites, for example Chrome or Firefox.)
+`.html` फ़ाइल नाम ब्राउज़र को बताता है कि फ़ाइल एक वेबपेज है, इसलिए ब्राउज़र को **टैग(tag)** देखने की जानकारी मिलती है और यह भी कि क्या प्रदर्शित करना है। (एक ब्राउज़र वह प्रोग्राम(program) है जिसका उपयोग आप वेबसाइटों को देखने के लिए करते हैं, उदाहरण के लिए Chrome या Firefox।)
 
-HTML tags such as `<p>` and `</p>` define different pieces of a page, for example paragraphs, headings, or the body. The pieces are all called **elements**. Think of them as building blocks.
+HTML टैग्स जैसे `<p>` और `</p>` पृष्ठ के विभिन्न टुकड़ों को परिभाषित करते है, उदाहरण के लिए पैराग्राफ (paragraph), हैडिंग (heading) या बॉडी (body)। इन टुकड़ों को **एलीमेंट्स (elements)** कहा जाता है । उन्हें वेबसाइट के निर्माण की ईंटों के रूप में सोचें।
 
-### Why do I need two tags?
-You need an **opening** and a **closing** tag to tell the browser where elements **start** and **end**. So for a paragraph, the opening `<p>` tag says "Here comes some text that I want you to display as a paragraph." The closing `</p>` tag tells the browser where the paragraph ends.
+### मुझे दो टैग(tags) की आवश्यकता क्यों है?
+आपको एक टैग **खोलने** और एक टैग **समापन** के लिए चाहिए ताकि ब्राउज़र को बता सके की तत्व(elements) के कहाँ **शुरू** और **अंत** होते हैं । तो एक पैराग्राफ के लिए, प्रारंभिक `<p>` टैग कहता है "यहां कुछ पाठ(text) आता है जो मैं चाहता हूं कि आप एक पैराग्राफ के रूप में प्रदर्शित करें।" समापन `</p>` टैग उस ब्राउज़र को बताता है जहां पैराग्राफ समाप्त होता है।
 
-Everything in between the `<body>` and `</body>` tags is your webpage.
+`<body>` और `</body>` टैग के बीच सब कुछ आपका वेबपेज है।
 
-- Notice how the closing tag **always** has a forward slash `/`.
+- ध्यान दें कि कैसे बंद होने वाले टैग के आगे **हमेशा** एक स्लैश `/` होता है।
 
 --- /collapse ---
 
-- Try changing the numbers in your **heading** tags to see the different sizes they give you. They can go from `<h1>` all the way up to `<h6>`. Remember to change both the opening and closing tag so that they match.
+- अपने शीर्षक(heading) में विभिन्न आकारों को देखने के लिए **heading** टैग में संख्याओं को बदलने का प्रयास करें। वे `<h1>` से `<h6>` तक जा सकते हैं। खुलने और बंद होने के टैग दोनों को बदलना याद रखें ताकि वे मेल खाते रहें।
 
-- Find the code for the paragraph that says 'This website is about bird conservation.' and change it so that it looks like this:
+- उस अनुच्छेद (paragraph) के कोड को खोजें जो कहता है 'This website is about bird conservation.' और इसे बदल दें ताकि यह इस तरह दिखे:
 
 ```html
   <p>
@@ -42,27 +42,27 @@ Everything in between the `<body>` and `</body>` tags is your webpage.
   </p>
 ```
 
-Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
+क्या आप अनुमान लगा सक्ते हैं की `<em> </em>` और `<strong> </strong>` टैग क्या काम करते हैं?
 
 ![Example of HTML tags](images/egFirstTags.png)
 
 --- challenge ---
 
-## Challenge: add some more text of your own
+## चुनौती: अपने खुद के कुछ और पाठ(text) जोड़ें
 
-- Try adding a new paragraph or heading to your page using some of the tags you've learned about.
+- आपके द्वारा सीखे गए कुछ टैगों(tags) का उपयोग करके अपने पृष्ठ(page) में एक नया अनुच्छेद(paragraph) या शीर्षक(heading) जोड़ने का प्रयास करें।
 
 --- hints ---
 
 --- hint ---
 
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
+जब आप किसी पृष्ठ पर पाठ(text) डालना चाहते हैं, तो आपको इसे दो टैगों(tags) के बीच में रखना होगा जो आपके ब्राउज़र को आपके पाठ(text) को प्रदर्शित करने का तरीका बताते हैं। उदाहरण के लिए, `<p> </p>` टैग ब्राउज़र को बताते हैं कि जो कुछ भी उनके बीच है वह पाठ का एक नया पैराग्राफ(paragraph) है, और `<h1> </h1>` टैग(tag) यह बताते हैं कि बीच में पाठ एक शीर्षक(heading) है।
 
 --- /hint ---
 
 --- hint ---
 
-The code for paragraphs looks like this:
+अनुच्छेद(paragraphs) के लिए कोड इस तरह दिखता है:
 
 ```html
   <p>This is one paragraph of text.</p>
@@ -77,13 +77,13 @@ The code for paragraphs looks like this:
 
 --- hint ---
 
-The code for headings looks like this:
+शीर्षकों के लिए कोड इस तरह दिखता है:
 
 ```html
   <h1>This is a heading.</h1>
 ```
 
-Headings will normally be displayed bigger or bolder than the paragraphs.
+शीर्षकों(heading) को आम तौर पर पैराग्राफ(paragraph) की तुलना में बड़ा या मोटा प्रदर्शित किया जाता है।
 
 --- /hint ---
 
@@ -91,4 +91,4 @@ Headings will normally be displayed bigger or bolder than the paragraphs.
 
 --- /challenge ---
 
-Congratulations, you've built your first webpage! On the next card, you'll find out how to control how it looks.
+बधाई हो, आपने अपना पहला वेबपेज बनाया है! अगले कार्ड पर, आपको यह पता लगाना होगा कि इसके रूप को कैसे नियंत्रित किया जाए।
