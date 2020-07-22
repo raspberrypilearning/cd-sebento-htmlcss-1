@@ -44,7 +44,7 @@ title: img टैग कैसे काम करता है
 
 - अपने trinket में,** + ** के बगल में **image** चिह्न पर क्लिक करें।
 
-![The image icon](images/tktImageIconArrow.png)
+![छवि आइकन](images/tktImageIconArrow.png)
 
 यह वह जगह है जहाँ आप उन चित्रों को देख सकते हैं जिन्हें आप अपनी वेबसाइट पर उपयोग कर सकते हैं। आपको चीखने वाला उल्लू(barn owl) की तस्वीर दिखनी चाहिए।
 
@@ -54,7 +54,7 @@ title: img टैग कैसे काम करता है
 
 - **Done** बटन पर क्लिक करें।
 
-![Image upload area](images/tktUploadImages.png)
+![छवि अपलोड क्षेत्र](images/tktUploadImages.png)
 
 अब आपकी तस्वीर अपलोड(upload) की जाएगी और उपयोग करने के लिए तैयार हो जाएगी।
 
