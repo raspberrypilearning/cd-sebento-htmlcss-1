@@ -4,7 +4,7 @@
 
 - कोड पैनल के शीर्ष पर, टैब के आगे **+** चिन्ह पर क्लिक करें, और अपनी नई फ़ाइल के लिए एक नाम लिखें। इसे `.html` (डॉट सहित!) में समाप्त होना चाहिए ताकि ब्राउज़र को पता हो कि यह एक वेबपेज है।
 
-![Adding a new file in Trinket](images/tktNewFileArrows.png)
+![ट्रिंकेट में एक नई फ़ाइल जोड़ना](images/tktNewFileArrows.png)
 
 --- collapse ---
 ---
@@ -21,7 +21,7 @@ title: फ़ाइल का नाम बदलना या हटाना
 
 - आपके नए पृष्ठ को उपयुक्त शीर्षक देने के लिए `<title> </title>` टैग के बीच के पाठ(text) बदलें। Trinket शीर्षक प्रदर्शित नहीं करेगा, लेकिन यदि आप अपना प्रोजेक्ट डाउनलोड करते हैं तो आप इसे अपने ब्राउज़र विंडो के शीर्ष(top) पर देख सकते हैं।
 
-![The page title showing in the browser tab](images/egLocalFileWindowTitle.png)
+![ब्राउज़र टैब में पृष्ठ का शीर्षक दिखा रहा है](images/egLocalFileWindowTitle.png)
 
 - नई फ़ाइल में `<main> </main>` टैग(tag) बीच में, उन टैग(tag) का उपयोग करें जिनके बारे में आपने सीखा है, जैसे अनुच्छेद(paragraph), शीर्षक(heading), छवि(image) और सूची(list)!
 
@@ -29,7 +29,7 @@ title: फ़ाइल का नाम बदलना या हटाना
 
 जब trinket में एक साथ दिखाने के लिए बहुत सारे टैब हो जाते हैं, तो आप उनके बीच स्क्रॉल करने के लिए टैब के ऊपरी बाएं कोने में स्थित **<** और **>** चिन्हों का उपयोग कर सकते हैं।
 
-![The buttons for scrolling the tabs](images/tktScrollTabIcons.png)
+![टैब स्क्रॉल करने के लिए बटन](images/tktScrollTabIcons.png)
 
 अब आपको लिंक बनाने की आवश्यकता है ताकि आप अपने प्रत्येक नए पृष्ट तक पहुंच सकें! चलिए सभी लिंक एक सूची में डालते हैं।
 
@@ -50,5 +50,5 @@ title: फ़ाइल का नाम बदलना या हटाना
 
 अब आप अपने नए पृष्ठों पर जा सकते हैं!
 
-![Example list of links on a web page](images/egListOfPageLinks.png)
+![एक वेब पेज पर लिंक की उदाहरण सूची](images/egListOfPageLinks.png)
 
