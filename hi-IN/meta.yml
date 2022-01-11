@@ -2,7 +2,7 @@
 title: बर्ड वॉच वेबसाइट 1.0
 hero_image: images/banner.png
 description: वेबसाइट बनाना सीखें
-theme: navy #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: navy
 duration: 3
 listed: true
 ingredient: false
@@ -16,16 +16,18 @@ software: html-css-javascript
 version: 3.0.0
 last_tested: 2018-05-01
 steps:
-  - title: परिचय
-  - title: शुरू करने के लिए
-  - title: आपका पहला वेबपेज!
-  - title: वेबसाइट का रूप नियंत्रित करना
-  - title: चित्र जोड़ना
-  - title: नक्शा या वीडियो जोड़ना
-  - title: सूची बनाना
-  - title: लिंक बनाना
-  - title: अन्य पृष्ठ जोड़ना
-  - title: अपनी वेबसाइट को नेविगेट(navigate) करना
-  - title: मेन्यू बार बनाना
-  - title: मेनू बार स्टाइल करना
-  - title: एक तालिका जोड़ना
+- title: परिचय
+  completion: engaged
+- title: शुरू करने के लिए
+- title: आपका पहला वेबपेज!
+- title: वेबसाइट का रूप नियंत्रित करना
+- title: चित्र जोड़ना
+- title: नक्शा या वीडियो जोड़ना
+- title: सूची बनाना
+- title: लिंक बनाना
+- title: अन्य पृष्ठ जोड़ना
+- title: अपनी वेबसाइट को नेविगेट(navigate) करना
+- title: मेन्यू बार बनाना
+- title: मेनू बार स्टाइल करना
+  completion: internal
+- title: एक तालिका जोड़ना

@@ -1,7 +1,8 @@
+---
 title: Bird watch website 1.0
 hero_image: images/banner.png
 description: Learn to make a website
-theme: navy # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: navy
 duration: 3
 listed: true
 ingredient: false
@@ -14,8 +15,9 @@ hardware: ''
 software: html-css-javascript
 version: 3.0.0
 last_tested: 2018-05-01
-steps: 
+steps:
 - title: Introduction
+  completion: engaged
 - title: Getting set up
 - title: Your first webpage!
 - title: Controlling how it looks
@@ -27,4 +29,5 @@ steps:
 - title: Navigating your website
 - title: Making a menu bar
 - title: Styling the menu bar
+  completion: internal
 - title: Adding a table
