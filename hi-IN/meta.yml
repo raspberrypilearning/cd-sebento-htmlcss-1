@@ -17,10 +17,11 @@ version: 3.0.0
 last_tested: 2018-05-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: शुरू करने के लिए
 - title: आपका पहला वेबपेज!
 - title: वेबसाइट का रूप नियंत्रित करना
+  completion:
+  - engaged
 - title: चित्र जोड़ना
 - title: नक्शा या वीडियो जोड़ना
 - title: सूची बनाना
@@ -29,5 +30,6 @@ steps:
 - title: अपनी वेबसाइट को नेविगेट(navigate) करना
 - title: मेन्यू बार बनाना
 - title: मेनू बार स्टाइल करना
-  completion: internal
 - title: एक तालिका जोड़ना
+  completion:
+  - internal
