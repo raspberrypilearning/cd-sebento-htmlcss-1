@@ -30,6 +30,8 @@ steps:
 - title: Navigating your website
 - title: Making a menu bar
 - title: Styling the menu bar
-- title: Adding a table
   completion:
   - internal
+- title: Adding a table
+  completion:
+  - external
