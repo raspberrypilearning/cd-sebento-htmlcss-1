@@ -50,16 +50,15 @@ If you make a mistake, you can **undo** it by pressing <kbd>Ctrl</kbd> (or <kbd>
 - Put this code section into the header section of each HTML file that you've created. This will make the navigation menu appear at the top of every page on your website.
 
  --- hints ---
-
- --- hint ---
+--- hint ---
 
 Select the entire `<nav>` section like you did before, and press the <kbd>Ctrl</kbd> (or <kbd>cmd</kbd>) and <kbd>C</kbd> keys together to copy it. 
  
 Then, in each of your `.html` files, click inside the `<header> </header>` section and paste the code exactly like you did earlier.
 
  --- /hint ---
+--- /hints ---
 
- --- /hints ---
 
 Now you will be able to click the links no matter which page you are on. 
 

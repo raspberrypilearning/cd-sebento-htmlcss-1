@@ -66,13 +66,6 @@ You can put a link into other elements of your webpage too, such as in a paragra
 - See if you can make a list that contains a link inside one of the list items.
 
 --- hints ---
-
---- hint ---
-
-To turn a list item `<li> </li>` into a link, put all of it, including the list tags, in between a pair of link tags `<a> </a>` and add the `href` attribute as you've done above.
-
---- /hint ---
-
 --- hint ---
 
 In the following list, the 'Hen harrier' list item has been turned into a link.
@@ -87,8 +80,8 @@ In the following list, the 'Hen harrier' list item has been turned into a link.
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 
 --- /challenge ---

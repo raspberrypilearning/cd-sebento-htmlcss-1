@@ -53,28 +53,6 @@ Can you work out what the `<em> </em>` and `<strong> </strong>` tags do?
 - Try adding a new paragraph or heading to your page using some of the tags you've learned about.
 
 --- hints ---
-
---- hint ---
-
-When you want to put text on a page, you need to put it in between two tags that tell your browser how to display your text. For example, the `<p> </p>` tags tell the browser that whatever is in between them is a new paragraph of text, and the `<h1> </h1>` tags tell it that the text in between is a heading.
-
---- /hint ---
-
---- hint ---
-
-The code for paragraphs looks like this:
-
-```html
-  <p>This is one paragraph of text.</p>
-
-  <p>This is another paragraph.
-  Everything in between one set of p tags is 
-  displayed together in one long line on the webpage.</p>
-```
-
---- /hint ---
-
-
 --- hint ---
 
 The code for headings looks like this:
@@ -86,8 +64,8 @@ The code for headings looks like this:
 Headings will normally be displayed bigger or bolder than the paragraphs.
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /challenge ---
 
